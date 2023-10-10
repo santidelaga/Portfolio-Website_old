@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Santiago De La Garza</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/Logo_DLGDLT.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="./portfolio.html">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <h1>Howdy! I'm <span>Santiago</span> De La Garza,<br> A UX Designer based in Austin, Texas.</h1>
+                </div>
+            </div>
+        </div>
+    <!---------------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/My project.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                <p>
+                    Howdy! I'm passionate about merging technology and creativity to craft captivating digital experiences. With a background in Computer Engineering, I've dived into AI, robotics, and software development, shaping a unique approach to design. Over two years, I've partnered with startups, using my skills in user research, testing, and prototyping to create impactful products that align with clients' visions.
+
+Welcome to my portfolio! I finished my Computer Engineering degree at the University of Texas at San Antonio, constantly finding solutions through creative thinking. I thrive in the 'why' and 'how' of UX design. Let's create amazing products with flexibility, speed, and quality! 
+My plans include pursuing a Masters of Human Computer Interaction in 2024.
+                </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/Interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022</span><br>UX Design Intern at NUUP Health (Startup)</li>
+                            <li><span>2023-current</span><br>UX Designer at Bushido (Startup)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018-2023</span><br>BS in Computer Engineering from UT San Antonio</li>
+                            <li><span>2022</span><br>Google Coursera UX Design Certificate</li>
+                            <li><span>2022</span><br>Artificial Intelligence Certificate from UT San Antonio</li>
+                            <li><span>2023</span><br>Full-Stack Cloud Development Certificate From UT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------services------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web Design involves creating and styling the visual elements of websites to provide an engaging and user-friendly experience. A well-designed website not only looks appealing but also ensures smooth navigation for visitors, enhancing their online experience.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>UI/UX Design focuses on crafting the user interface (UI) and user experience (UX) of digital products. It aims to make interactions intuitive, efficient, and enjoyable for users. Good UI/UX design enhances user satisfaction and boosts the usability of applications and websites.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>App Design involves creating the visual layout and functionality of mobile or desktop applications. Effective app design ensures that the application is visually appealing, easy to navigate, and provides a seamless experience for users, whether it's on a smartphone or computer.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------portfolio------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Pixel True Mockup (1).png">
+                <div class="layer">
+                    <h3>Language Learning App</h3>
+                    <p>This app allows for a easy and fun way to learn the language you've always wanted to.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Pixel True Mockup.png">
+                <div class="layer">
+                    <h3>Music Streaming Platform</h3>
+                    <p>This platform, by the name of 'Bushido' is a startup focused on giving creators their fair shares of profit and providing content one can enjoy through a modern design.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Pixel True Mockup (3).png">
+                <div class="layer">
+                    <h3>Videography Services Website</h3>
+                    <p>Responsive Web Design for a client that focuses on the videography industry in Texas. 
+                        He is looking to expand his market and needed to refine his already existing website
+                        into one that tailored a wider audience and encapsulated a more professional look.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Let's Get in Touch!</h1>
+                <p><i class="fas fa-paper-plane"></i> santi.delaga@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> (210) 638-0040</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/santidelaga/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/santiago-de-la-garza-515b63b5/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/UX Design Resume - Santiago De La Garza.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">Hello</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Santiago De La Garza.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+       for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+       } 
+       for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+       }
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab"); 
+    }
+
+</script>    
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxSpYHM8lkscRmOdNFBQFdsEstRmPfdhWl838KJlIyOD3wMdMARyei73kgW5AiBrYuv/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },2000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
